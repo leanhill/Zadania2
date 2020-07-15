@@ -13,8 +13,6 @@ def bubble_sort(number_to_sort):
                 a = number_bubbled[i]
                 number_bubbled[i] = number_bubbled[i + 1]
                 number_bubbled[i + 1] = a
-            else:
-                pass
     return number_bubbled
 
 
