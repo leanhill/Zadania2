@@ -22,5 +22,5 @@ def decode_morse(txt_in_morse):
     for i in txt_decoded:
         txt_translated += morse_code[i]
     return txt_translated
-print(decode_morse('-.-..   ---   ...'))
+
 
