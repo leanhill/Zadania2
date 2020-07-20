@@ -6,7 +6,7 @@ Q = ‘−−·−‘
 czyli w kodzie morse'a SOS wyglądałoby:
 
 SOS = ‘···−−−···’
-Iii ta nowa funkcja powinna zwrócić zakodowany tekst, czyli np.:
+Iii ta nowa funkcja powinna zwrócić szakodowany tekst, czyli np.:
 
 decode_morse('...   ---   ...') # => 'S O S'"""
 def decode_morse(txt_in_morse):
