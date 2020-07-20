@@ -7,5 +7,6 @@ def create_phone_number(phone_number_digits):
                    f"{phone_number_digits[4]}-{phone_number_digits[5]}{phone_number_digits[6]}{phone_number_digits[7]}" \
                    f"-{phone_number_digits[8]}{phone_number_digits[9]}{phone_number_digits[10]}"
     return phone_number
+print("aa")
 
 
