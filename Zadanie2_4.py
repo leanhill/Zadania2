@@ -14,6 +14,6 @@ def bubble_sort(number_to_sort):
                 number_bubbled[i] = number_bubbled[i + 1]
                 number_bubbled[i + 1] = a
     return number_bubbled
-print(bubble_sort("9876"))
+
 
 
