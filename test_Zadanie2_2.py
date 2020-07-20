@@ -1,5 +1,8 @@
 from Zadanie2_2 import to_weird_case
+import pytest
 
 
-def test_to_weird_case():
-    assert to_weird_case("String") == 'StRiNg'
+@pytest.mark.parametrize("n, result", [("String", 'StRiNg'), ("python" , "PyThOn"),
+                                       ("Jaś i Małgosia na wakacjach", "JaŚ i MaŁgOsIa Na WaKaCjAcH")])
+def test_to_weird_case(n, result):
+    assert to_weird_case(n) == result
